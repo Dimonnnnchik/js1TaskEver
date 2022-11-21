@@ -71,6 +71,7 @@ function showMyDB() {
 }
 
 
+
 function writeYourGenres() {
     for (let i = 0; i < 3; i++) {
         personalMovieDB.genres[i] = prompt('Ur fav genre under num ' + ++i, '');
