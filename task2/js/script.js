@@ -43,8 +43,8 @@ const personalMovieDB = {
         }
     },
 
-    showMyDB: function () {
-        if (personalMovieDB.private === false) {
+    showMyDB: function (hidden) {
+        if (!hidden) {
             console.log(personalMovieDB);
         }
     },
